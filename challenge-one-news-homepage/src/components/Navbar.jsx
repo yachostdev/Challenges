@@ -1,11 +1,12 @@
 export const Navbar = () => {
   return (
-    <ul className="bg-blue-400 hidden sm:flex ">
+    <ul className="bg-blue-400 hidden sm:flex">
       <li>
         <a href="#">Home</a>
       </li>
       <li>
         <a href="#">New</a>
+        a
       </li>
       <li>
         <a href="#">Popular</a>
