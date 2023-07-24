@@ -1,12 +1,14 @@
+import burguerMenu from '../assets/images/icon-menu.svg'
+
 export const Navbar = () => {
   return (
-    <ul className="bg-blue-400 hidden sm:flex">
-      <li>
+    <>
+    <ul className="bg-blue-400 hidden sm:flex text-lg w-[438px] sm:place-content-around sm:text-base sm:items-center">
+      <li className="">
         <a href="#">Home</a>
       </li>
       <li>
         <a href="#">New</a>
-        a
       </li>
       <li>
         <a href="#">Popular</a>
@@ -18,5 +20,7 @@ export const Navbar = () => {
         <a href="#">Categories</a>
       </li>
     </ul>
+    <img src={burguerMenu} alt="Menu" className='w-10 h-4 cursor-pointer sm:hidden'/>
+    </>
   );
 };
