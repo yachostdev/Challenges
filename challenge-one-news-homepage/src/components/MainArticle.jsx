@@ -3,7 +3,7 @@ import imageDesktop from "../assets/images/image-web-3-desktop.jpg";
 
 export const MainArticle = () => {
   return (
-    <section>
+    <section className="mb-12">
       <picture>
         <source media="(max-width: 640px)" srcSet={imageMobile} />
         <source media="(min-width: 641px)" srcSet={imageDesktop} />
@@ -19,7 +19,7 @@ export const MainArticle = () => {
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button>Read more</button>
+          <button className="bg-SoftRed w-[185px] h-[48px] text-OffWhite hover:bg-VeryDarkBlue uppercase">Read more</button>
         </div>
       </div>
     </section>
