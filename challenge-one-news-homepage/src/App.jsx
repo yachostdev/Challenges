@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { MainArticle } from "./components/MainArticle";
 import { NewContainer } from "./components/NewContainer";
+import { ArticlesContainer } from "./components/ArticlesContainer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <MainArticle/>
         <NewContainer/>
       </div>
+      <ArticlesContainer/>
 
     </main>
   );
